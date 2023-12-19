@@ -43,6 +43,13 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     wsteth: NOT_SUPPORTED_ON_CHAIN,
     creationBlock: 46866777,
   },
+  [97]: {
+    router: '0xA94E8A6497c8D118C6dD15Ad1BcE9120c03A9D9b',
+    weth: '0x222Ab90d0AB7a90ecF368E7093141EFf1E1B5D20',
+    steth: NOT_SUPPORTED_ON_CHAIN,
+    wsteth: NOT_SUPPORTED_ON_CHAIN,
+    creationBlock: 35974724,
+  },
   //polygon mumbai
   [80001]: {
     router: '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD',

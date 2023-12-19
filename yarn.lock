@@ -3052,7 +3052,7 @@ __metadata:
 
 "@uniswap/router-sdk@https://github.com/MuhammadFassihHaider/uniswap-router-sdk":
   version: 1.7.1
-  resolution: "@uniswap/router-sdk@https://github.com/MuhammadFassihHaider/uniswap-router-sdk.git#commit=15889c9e4ba1c108a76d2e75828a2ac3a0f6e13c"
+  resolution: "@uniswap/router-sdk@https://github.com/MuhammadFassihHaider/uniswap-router-sdk.git#commit=c6f5e072ea700ce788a6a43f02869e212439eca0"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@uniswap/sdk-core": "https://github.com/MuhammadFassihHaider/uniswap-sdk-core"
@@ -3065,7 +3065,7 @@ __metadata:
 
 "@uniswap/sdk-core@https://github.com/MuhammadFassihHaider/uniswap-sdk-core":
   version: 4.0.9
-  resolution: "@uniswap/sdk-core@https://github.com/MuhammadFassihHaider/uniswap-sdk-core.git#commit=3bd0572b1751bb1d5e2f3cfce7c9e511dd7e2379"
+  resolution: "@uniswap/sdk-core@https://github.com/MuhammadFassihHaider/uniswap-sdk-core.git#commit=be67ae280f619417668f3fa0c61945fc9cfe561d"
   dependencies:
     "@ethersproject/address": ^5.0.2
     big.js: ^5.2.2
@@ -3073,7 +3073,7 @@ __metadata:
     jsbi: ^3.1.4
     tiny-invariant: ^1.1.0
     toformat: ^2.0.0
-  checksum: 5aa6d56d3949269d25501cf6b639953c6ab082b27619d87b8e265b74d6179a44cba77d32ebb6e39a0b5294b41a38f911701dac5659fe4a0fdc59d49cc036dfec
+  checksum: 9b40f24336677116cdf2ae822a5acc19041bbec89b8ce1a52a1288841cbc2231f9af61b706cdf0ccf4e18d5f05ec76ee10708229eae033cedd357b98aee90cbd
   languageName: node
   linkType: hard
 
@@ -3140,7 +3140,7 @@ __metadata:
 
 "@uniswap/v2-sdk@https://github.com/MuhammadFassihHaider/uniswap-v2-sdk":
   version: 3.2.3
-  resolution: "@uniswap/v2-sdk@https://github.com/MuhammadFassihHaider/uniswap-v2-sdk.git#commit=275a0ed7fa0288a07db7d1c57608e05d06288518"
+  resolution: "@uniswap/v2-sdk@https://github.com/MuhammadFassihHaider/uniswap-v2-sdk.git#commit=ce3329c34b097d090fdd8cd96e3bf60f3dc9d71f"
   dependencies:
     "@ethersproject/address": ^5.0.0
     "@ethersproject/solidity": ^5.0.0
@@ -3180,7 +3180,7 @@ __metadata:
 
 "@uniswap/v3-sdk@https://github.com/MuhammadFassihHaider/uniswap-v3-sdk":
   version: 3.10.0
-  resolution: "@uniswap/v3-sdk@https://github.com/MuhammadFassihHaider/uniswap-v3-sdk.git#commit=a29ce5a6a038b93736abb311e001ba40c890ea00"
+  resolution: "@uniswap/v3-sdk@https://github.com/MuhammadFassihHaider/uniswap-v3-sdk.git#commit=0028bea635bfbec50cae9fe391fcc1bd71228a26"
   dependencies:
     "@ethersproject/abi": ^5.0.12
     "@ethersproject/solidity": ^5.0.9
@@ -3190,7 +3190,7 @@ __metadata:
     "@uniswap/v3-staker": 1.0.0
     tiny-invariant: ^1.1.0
     tiny-warning: ^1.0.3
-  checksum: 552e238904c12e699b7befa167072df9d8d74a037c99a474b3679079c3e428f7f1e2ed5309a42bd19707ff4fcc42b5cb498a4a8664160ff70290e4627ef9409c
+  checksum: b6a3a8723011e29857daa591e91d1fd849392d96f4650ea9034e0d21804f66d64f479ebca8b2ac3f965a6781719f5a4ffc79bd7024e501d3efe022a04143774a
   languageName: node
   linkType: hard
 
@@ -5050,9 +5050,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.601":
-  version: 1.4.614
-  resolution: "electron-to-chromium@npm:1.4.614"
-  checksum: e99e6c8600aa76b4d385a4381b943ec2cfeebfdc36a2675fbf87b334256428b92f5d79ab287b8bab0e1875a992284a8a95a03b41b71e9d64a75b5088daf1dc5e
+  version: 1.4.615
+  resolution: "electron-to-chromium@npm:1.4.615"
+  checksum: 9ffb1d0dac11c629bd8aa38efa7d2e3f41de943cf81fb41ab05e960e954c464c168d1f2f7e571813805e85b895279f2882bcafa551a2f23089646008d7a5bd06
   languageName: node
   linkType: hard
 
@@ -6508,8 +6508,8 @@ __metadata:
   linkType: hard
 
 "hardhat@npm:^2.6.8":
-  version: 2.19.2
-  resolution: "hardhat@npm:2.19.2"
+  version: 2.19.3
+  resolution: "hardhat@npm:2.19.3"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@metamask/eth-sig-util": ^4.0.0
@@ -6569,7 +6569,7 @@ __metadata:
       optional: true
   bin:
     hardhat: internal/cli/bootstrap.js
-  checksum: 0b5499890e46750ca8c51bbe1205599b1424a2e5293b40c9f7cb56320d56b9935fbd4e276de370e07664ae81fa57dc7ab227bf2b2363f5732ef9f06df1a9a6d9
+  checksum: e4022f6b7167e15b8e71b15bb8847053bb173523436937cfb492377162cb36267de2ccbe33ecba0c62207d8f94730255500bce02d91d5970eb55a0dc49c5631a
   languageName: node
   linkType: hard
 
