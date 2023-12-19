@@ -141,7 +141,7 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
-  if (!(chainId in CHAIN_CONFIGS)) throw new Error(`Universal Router not deployed on chain ${chainId}`)
+  if (!(chainId in CHAIN_CONFIGS)) throw new Error(`Universal Router not deployed on chain L ${chainId}`)
   return CHAIN_CONFIGS[chainId].router
 }
 
